@@ -4,6 +4,6 @@
 
 <template>
   <div>
-    <UiVideoPlayer src="assets/foo.mp4" />
+    Welcome
   </div>
 </template>
