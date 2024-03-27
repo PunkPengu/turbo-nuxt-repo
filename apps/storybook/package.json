@@ -1,0 +1,32 @@
+{
+  "name": "@pengulabs/storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "storybook dev -p 6007",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pengulabs/css-config": "workspace:*",
+    "@pengulabs/typescript-config": "workspace:*",
+    "@pengulabs/ui-library": "workspace:*",
+    "@storybook/addon-essentials": "^8.0.4",
+    "@storybook/addon-interactions": "^8.0.4",
+    "@storybook/addon-links": "^8.0.4",
+    "@storybook/blocks": "^8.0.4",
+    "@storybook/test": "^8.0.4",
+    "@storybook/vue3": "^8.0.4",
+    "@storybook/vue3-vite": "^8.0.4",
+    "@unocss/vite": "0.58.7",
+    "floating-vue": "^5.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^8.0.4"
+  }
+}

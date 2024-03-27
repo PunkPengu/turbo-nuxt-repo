@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@wattgeht/typescript-config/vue.json"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "baseUrl": ".",
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ]
+    }
+  }
+}

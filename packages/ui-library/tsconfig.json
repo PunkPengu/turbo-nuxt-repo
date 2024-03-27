@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@pengulabs/typescript-config/vue.json"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ui-library/*": ["./src/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  }
+}
